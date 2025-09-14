@@ -1,0 +1,45 @@
+lists in html
+    unordered list(ul as tag)
+        used to list some items with tag (li) list items.
+    syntax :
+        <ui> 
+            <li> item </li>
+            <li> item </li>
+        </ui>
+    Attributes : 
+    type = "x"
+        x=disc for shaded circles
+        x=circle for circles    
+        x=square for squares
+        x=none for nothing 
+
+    Ordered list (OL as tag)
+        used to list some items with tag (li) in an order.
+    syntax :
+        <oi> 
+            <li> item </li>
+            <li> item </li>
+        </oi>
+        <OL reversed = "true">
+    attributes :
+        1)reversed:
+        in this wee get the order in reversed manner.
+        2)start:
+        with this we get numbering from the started num.
+        start = "100"
+        3)type : 
+        it is used to represent the list by the type we required like numbers , alphabits.
+        type = "x"
+        x=1 is for numbers
+        x=a is for smaller alphabits
+        x=A is for larger alphabits
+        x=i is foe smaller roman numbers
+        x=I is for larger roman numbers
+    
+nestered lists
+    used to get list in the list
+
+Definition list:
+    tag <dl>
+    <dt> is for Definition term
+    <dd> is for definiton discription.
